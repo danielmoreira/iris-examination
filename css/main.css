@@ -1,0 +1,427 @@
+/** Author: Priscila Saboia (https://github.com/psaboia). */
+
+html {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100%;
+    background-color: #eee;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    z-index: 0;
+    position: relative;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+}
+
+.fixed-width {
+    width: 780px; /*width: 50%;*/
+}
+
+.outer-container {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 0px;
+}
+
+.header-container {
+    position: relative;
+    height: 100%;
+}
+
+.project-name {
+    float: left;
+    width: 500px;
+    letter-spacing: 0.3px;
+    position: absolute;
+    top: 12px;
+    vertical-align: middle;
+}
+
+.project-name h1 {
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 290%;
+}
+
+.logo-university {
+    text-align: right;
+}
+
+.lateral-alignment {
+    margin: 0px 30px 0px 30px;
+}
+
+.endup-examination-text {
+    transform: translateX(18%);
+    width: 50%;
+    float: left;
+    position: absolute;
+}
+
+.endup-examination-text h1 {
+    font-size: 28px;
+}
+
+.endup-examination-text h2 {
+    font-size: 22px;
+}
+
+.endup-examination-text h1, .endup-examination-text h2 {
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+.div-button-home {
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+    transform: translateX(260%);
+    width: 25%;
+}
+
+.form-container {
+    color: #5d676c;
+    padding: 50px 25px 45px 25px;
+    border-radius: 12px;
+    border: 2px solid #a2c4c9;
+    margin-top: 10px;
+    margin-bottom: 45px;
+    position: relative;
+    height: 100%;
+    width: 650px;
+}
+
+.form-container form {
+    color: #5d676c;
+}
+
+.form-container form .col1 {
+    float: left;
+    width: 31%;
+    position: absolute;
+}
+
+.form-container form .col2 {
+    transform: translateX(105%);
+    width: 31%;
+    float: left;
+    position: absolute;
+}
+
+.form-container form .col3 {
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+    transform: translateX(290%);
+    width: 25%;
+}
+
+.footnote-container {
+    background-color: dimgray;
+    color: #fff;
+    font-size: 90%;
+    padding: 8px 15px;
+    text-align: right;
+    letter-spacing: 0.5px;
+}
+
+.iris-container {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    margin: 0px;
+    padding: 0px;
+}
+
+.iris-canvas {
+    cursor: url(../imgs/annotate_cursor_match.png) 14 50, auto;
+    cursor: url(../imgs/annotate_cursor_non_match.png) 14 50, auto;
+}
+
+.rounded-container {
+    background-color: #000;
+    left: 49%;
+    position: absolute;
+    transform: translateX(-49%);
+    border-radius: 20px;
+    border: 2px solid #000;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+
+.bottom-container {
+    left: 49%;
+    position: absolute;
+    padding-top: 15px;
+    height: auto;
+}
+
+.bottom-container-inner {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    align-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.canvas-on { /* text message and next button */
+    width: 700px;
+}
+
+.canvas-off { /* radio button and next button */
+    width: 600px;
+}
+
+.radio-list {
+    width: 60%;
+    float: left;
+}
+
+.test-canvas {
+    width: 75%;
+    float: left;
+    align-content: center;
+    text-align: center;
+}
+
+input[type=text], select {
+    margin: 14px 0px 0px 0px;
+    height: 28px;
+    border: 1px solid #a2c4c9;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #4a5a5d;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #d0e0e3;
+}
+
+form label {
+    padding-left: 12px;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+}
+
+.button-next input[type=submit], .form-container form input[type=submit] {
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #6aa84f;
+    color: white;
+    padding: 26px 54px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.button-next input[type=submit]:hover, .form-container form input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.text-annotate {
+    color: #666666;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.text-answers {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.text-decision {
+    font-size: 20px;
+}
+
+/* buttons to edit canvas */
+.drawing {
+    margin-top: 5px;
+    padding: 0px;
+    left: 49%;
+    position: absolute;
+    transform: translateX(-49%);
+    z-index: 1;
+}
+
+.tool-box-annotate {
+    margin: 0px;
+    padding: 0px;
+    height: 35px;
+}
+
+.drawing table {
+    border: 1px solid #ccc;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    background-color: #d9e1e5;
+}
+
+.drawing tr, .drawing td {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.non-match, .match {
+    width: 150px;
+}
+
+/* Radio Button */
+.bottom-container ul {
+    /* removes bullets */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /*overflow: auto;*/
+    height: 100%;
+}
+
+ul li {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 32px;
+}
+
+ul li input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+}
+
+ul li label {
+    color: #5d676c; /* font color */
+    display: block;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.08em;
+    padding: 17px 17px 17px 60px;
+    margin: 10px auto;
+    z-index: 9;
+    cursor: pointer;
+    -webkit-transition: all 0.15s linear;
+}
+
+ul li:hover label {
+    color: #d33e3e; /* option text hover */
+}
+
+ul li .check {
+    display: block;
+    position: absolute;
+    border: 2px solid #78909c; /* radio button border */
+    background-color: #eee; /* radio button background */
+    border-radius: 100%;
+    height: 14px;
+    width: 14px;
+    top: 30px;
+    left: 20px;
+    z-index: 5;
+    transition: border .15s linear;
+    -webkit-transition: border .15s linear;
+}
+
+ul li:hover .check {
+    border: 2px solid #000; /* radio button hover */
+}
+
+ul li .check::before {
+    display: block;
+    position: absolute;
+    content: '';
+    border-radius: 100%;
+    height: 8px; /* radio button dot size */
+    width: 8px;
+    top: 3px;
+    left: 3px;
+    margin: auto;
+    transition: background 0.15s linear;
+    -webkit-transition: background 0.15s linear;
+}
+
+input[type=radio]:checked ~ .check {
+    border: 2px solid #78909c; /* checked radio button line color */
+}
+
+input[type=radio]:checked ~ .check::before {
+    background: #000; /* radio button dot color */
+}
+
+input[type=radio]:checked ~ label {
+    color: #000; /* selected option color */
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #6aa84f;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #e06666;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #6aa84f;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded toggle buttons */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
