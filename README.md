@@ -51,8 +51,8 @@ Alternatively, the user can change the opinion previously provided in step 1, by
 
 
 ## Acknowledgments
-This system was developed in the Computer Vision and Research Lab ([CVRL](https://cvrl.nd.edu/)) at the University of Notre Dame.
-It is part of the [TSHEPII](https://danielmoreira.github.io/project/tshepii/) project, under the invaluable supervision of Dr. [Adam Czajka.](https://engineering.nd.edu/profiles/aczajka)
+This system was developed in the Computer Vision and Research Lab ([CVRL](https://cvrl.nd.edu/)) at the University of Notre Dame, under the invaluable supervision of Dr. [Adam Czajka.](https://engineering.nd.edu/profiles/aczajka)
+It was used for data collection in the [TSHEPII](https://danielmoreira.github.io/project/tshepii/) project.
 CSS files were coded by [Priscila Saboia](https://github.com/psaboia), who implemented the system style from mere *Google Slides* [sketches](https://docs.google.com/presentation/d/1yW5ovo12eH2bKdYGmbRg3O7Uk88_iMsLL-Ii7T7D0os/edit?usp=sharing). 
 Oliveira's [project](https://www.codeproject.com/Articles/801111/Html-Image-Markup) was the starting point to develop the annotation feature.
 Thank you all! 
