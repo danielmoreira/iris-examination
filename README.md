@@ -2,7 +2,7 @@
 Web system that allows people to compare and annotate pairs of iris images.
 The main system objective is to support **iris recognition**.
 
-![Iris examination example.][image_01.png]
+![Iris examination example.](image_01.png)
 
 
 ## Deployment
@@ -16,7 +16,7 @@ A successful deployment shall depict basic PHP info.
 
 
 ## System Usage Pipeline
-The system usage comprises two steps: *(1) Opinion Selection* and *(2) Manual Annotation*.
+The system usage comprises two steps: [*(1) Opinion Selection*](#opinion-selection) and [*(2) Manual Annotation*.](#manual-annotation)
 
 ### Opinion Selection
 The first step of the system usage pipeline shall be available at *http://**your-server**/iris-annotation/step1/*.
@@ -33,7 +33,7 @@ The user's opinions are stored in CVS format within the [*results*](./results) f
 
 ![Opinion selection screen.](image_04.png)
 
-We encourage users to provide their own iris image pairs (which must be copied to the [*irises*](./irises) folder), as well as their own examination scripts (which must be copied to the [*exams*](./exams) folder), to use the system. 
+We encourage users to provide their own iris image pairs (which must be copied to the [*irises*](./irises) folder), as well as their own examination scripts (which must be copied to the [*exams*](./exams) folder), in the occasion of using the system.
 
 ### Manual Annotation  
 The second step of the system usage pipeline shall be available at *http://**your-server**/iris-annotation/step2/*.
