@@ -66,4 +66,4 @@ HTML5 vector graphics scripting framework
 JavaScript library and API
 
 * [HTML5 Image Markup](https://www.codeproject.com/Articles/801111/Html-Image-Markup), by Marcelo de Oliveira   
-Sample project that shows how to use Paper.js]
+Sample project that shows how to use Paper.js
